@@ -48,7 +48,7 @@ body {
   
   /* Estilos para las secciones */
   .section {
-    height: 500px; /* Altura de las secciones */
+    height: 800px; /* Altura de las secciones */
   }
   
   #inicio {
@@ -219,3 +219,16 @@ body {
         align-items: center;
       }
       
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+}
+.container img{
+  width: 70%;
+}
+
+.image{
+  width: 100%;
+}
