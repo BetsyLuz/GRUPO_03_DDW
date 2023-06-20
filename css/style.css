@@ -48,7 +48,11 @@ body {
   
   /* Estilos para las secciones */
   .section {
+<<<<<<< HEAD
     height: 700px; /* Altura de las secciones */
+=======
+    height: 800px; /* Altura de las secciones */
+>>>>>>> 463cc73bdcbfa39b9df263c1afc44b5275da1bd9
   }
   
   #inicio {
@@ -65,12 +69,82 @@ display: flex;
 justify-content: left;}
 
   #contacto {
-    background-color: #999;
+    
+    display: flex;
+    background-color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+  p.inf {
+    font-size: 20px;
+  }
+  div.iz {
+    margin-left: 100px;
+    margin-right: 150px;
+  }
+
+  div.mid {
+    height: 520px;
+    width: 400px;
+    margin-left: 15px
+    background-color: #fffafa;
+  }
+  div.der {
+    margin-left: 500px;
+    margin-top: 50px;
+    background-color: rgb(0, 0, 0);
+    width: 1500px;
+    
+  }
+  .socials {
+    display: flex;
+    
+  }
+  
+  .socials li {
+    display: flex;
+    margin: 0 10px;
+    
+  }
+  .socials a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .socials a i {
+    font-size: 17, 6px;
+    transition: color 0.4s ease;
+  }
+  .socials a:hover i {
+    color: aqua;
+    }
+  
+    form {
+      border-radius: 5px;
+      border: 5px solid #ffffff;
+      padding: 20px;
+    }
+    
+    fieldset {
+      border: none;
+      margin-bottom: 20px;
+    }
+    
+    legend {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    
+    input[type=submit] {
+      background-color: #ffffff;
+      color: rgb(255, 255, 255);
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+
   a {
-    color: rgb(237, 237, 237);
-    cursor: pointer;
-    text-decoration: line-through;
+    
    
     }
     
@@ -154,3 +228,16 @@ justify-content: left;}
         align-items: center;
       }
       
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+}
+.container img{
+  width: 70%;
+}
+
+.image{
+  width: 100%;
+}
