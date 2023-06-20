@@ -48,7 +48,11 @@ body {
   
   /* Estilos para las secciones */
   .section {
+<<<<<<< HEAD
+    height: 700px; /* Altura de las secciones */
+=======
     height: 800px; /* Altura de las secciones */
+>>>>>>> 463cc73bdcbfa39b9df263c1afc44b5275da1bd9
   }
   
   #inicio {
@@ -56,9 +60,14 @@ body {
   }
   
   #acerca {
-    background-color: #ccc;
+    background-color: white;
+    
   }
-  
+
+#caja3 {font-size: 20px;color: black; font-weight: bold; top: 120px;right: 220px;
+display: flex;
+justify-content: left;}
+
   #contacto {
     
     display: flex;
